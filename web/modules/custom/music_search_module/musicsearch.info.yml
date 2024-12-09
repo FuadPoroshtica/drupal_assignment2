@@ -1,1 +1,8 @@
-
+name: 'Music Search Module'
+type: module
+description: 'A custom module for searching spotify music.'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - drupal:views
+  - drupal:search
