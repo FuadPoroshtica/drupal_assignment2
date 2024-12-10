@@ -8,9 +8,13 @@
 ### Run for the first time:
 
 ```bash
+ddev compose
+```
+### and then:
+```bash
 ddev import-db --file=database/db.sql.gz
 ```
-### then:
+### and then:
 ```bash
  ddev start
 ```
