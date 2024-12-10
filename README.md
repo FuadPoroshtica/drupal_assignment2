@@ -5,12 +5,12 @@
 - Hallgrímur Jónas Jensson
 
 
-## Run for the first time:
+### Run for the first time:
 
 ```bash
 ddev import-db --file=database/db.sql.gz
 ```
-# then:
+### then:
 ```bash
  ddev start
 ```
